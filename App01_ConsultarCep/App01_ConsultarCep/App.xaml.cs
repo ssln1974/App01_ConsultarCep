@@ -2,6 +2,7 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace App01_ConsultarCep
 {
@@ -11,7 +12,7 @@ namespace App01_ConsultarCep
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new App01_ConsultarCep.MainPage();
 		}
 
 		protected override void OnStart ()
